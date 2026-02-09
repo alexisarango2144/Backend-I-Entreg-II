@@ -1,0 +1,61 @@
+<div class="card">
+  <form class="" action="" id="createProductForm">
+    <div>
+      <h3 class="m-4 text-center">Crear Producto</h3>
+    </div>
+    <div class="row m-4 justify-content-between">  
+      <div class="col-auto mb-3">
+        <label for="title" class="form-label">Product name</label>
+        <input
+          type="text"
+          class="form-control"
+          id="title" name="title" required
+        />
+      </div>
+      <div class="col-auto mb-3">
+        <label for="description" class="form-label">Product description</label>
+        <input
+          type="text"
+          class="form-control"
+          id="description" name="description" required
+        />
+      </div>
+      <div class="col-auto mb-3">
+        <label for="code" class="form-label">Product code</label>
+        <input
+          type="text"
+          class="form-control"
+          id="code" name="code" required
+        />
+      </div>
+      <div class="col-auto mb-3">
+        <label for="price" class="form-label">Product price</label>
+        <input
+          type="number"
+          class="form-control"
+          id="price" name="price" required
+        />
+      </div>
+      <div class="col-auto mb-3">
+        <label for="thumbnail" class="form-label">Product thumbnail link</label>
+        <input
+          type="text"
+          class="form-control"
+          id="thumbnail" name="thumbnail" required
+        />
+      </div>
+    </div>
+    <div class="row m-4">
+      <div class="col text-center">
+        <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<div id="productsContainer" class="row my-4">
+
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/script.js"></script>

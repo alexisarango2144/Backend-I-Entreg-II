@@ -1,0 +1,61 @@
+<div class="text-center">
+  <h2 class="mb-4">Productos</h2>
+</div>
+<div class="row">
+  {{#if products}}
+    {{#each products}}
+      <div id="card-{{this.id}}" class="col-4">
+        <div class="card mb-4" style="width: 18rem;">
+          <div id="prod-{{this.id}}" class="carousel slide">
+            <div class="carousel-inner">
+              {{#each thumbnails}}
+                <div class="carousel-item active">
+                  <img src="{{this}}" class="d-block w-100" alt="{{title}}" />
+                </div>
+              {{/each}}
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#prod-{{this.id}}"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#prod-{{this.id}}"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">{{this.title}}</h5>
+            <p class="card-text">{{this.description}}</p>
+            <button
+              class="btn btn-danger delete-button"
+              data-id="{{this.id}}"
+            ><i class="lni lnib-trash-3"></i> Eliminar</button>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  {{else}}
+    <div class="row text-center">
+      <h2><i class="lni lni-wheelbarrow-empty"></i>
+        Lo sentimos, no se encontraron productos</h2>
+    </div>
+  {{/if}}
+</div>
+
+<script src="/script-noSockets.js"></script>

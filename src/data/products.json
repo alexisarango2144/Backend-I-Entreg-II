@@ -1,0 +1,44 @@
+[
+  {
+    "id": "a29853eb-22bc-4157-afbb-a7761ef31e04",
+    "title": "Comino molido",
+    "description": "Comino molido",
+    "code": "0452141",
+    "price": 4390,
+    "thumbnails": [
+      "https://puertodeoriente.es/cdn/shop/articles/Bea-comino-1-2_d969ae4b-eda1-4723-939a-100021322279_1200x.jpg?v=1737727544",
+      "https://latiendadeclemente.com/wp-content/uploads/2024/10/COMINO_MOLIDO_70G_LATIENDADECLEMENTE.jpg"
+    ],
+    "category": "Especias",
+    "stock": 98,
+    "status": true
+  },
+  {
+    "id": "742a61c9-658d-4dad-a492-92d3df0968fa",
+    "title": "Canela en astillas",
+    "description": "Canela en astillas lista para usar",
+    "code": "105ASE84",
+    "price": 5270,
+    "thumbnails": [
+      "https://eatsymarket.com/cdn/shop/files/CanelaenAstillas_1_720x.webp?v=1707746655",
+      "https://carulla.vtexassets.com/arquivos/ids/23980111/Canela-Badia-142g-Rama-887991_a.jpg?v=638986378531700000"
+    ],
+    "category": "Especias",
+    "stock": 2,
+    "status": true
+  },
+  {
+    "id": "77728a0e-1fca-4c29-99ec-ce16ef5decfa",
+    "title": "Lubriderm crema humectante",
+    "description": "Crema humectante para la piel",
+    "code": "LB101",
+    "price": 15000,
+    "thumbnails": [
+      "https://exitocol.vtexassets.com/arquivos/ids/31920867/Cr-Corporal-Reparacion-Intensi-1186952_a.jpg",
+      "https://leonisa.co/cdn/shop/files/LB101_SIN_1200X1500_col_1_620x.jpg?v=1722285279"
+    ],
+    "category": "Cuidado personal",
+    "stock": 100,
+    "status": true
+  }
+]
