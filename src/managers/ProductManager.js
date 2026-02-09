@@ -133,4 +133,4 @@ export class ProductManager {
 
 console.clear();
 
-export const productsManager = new ProductManager('./src/data/products.json');
+export const productsManager = new ProductManager('./data/products.json');
